@@ -1,0 +1,104 @@
+.signup-section-wrapper {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8rem;
+}
+
+.card.signup-card-container {
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  overflow: hidden;
+  background: var(--secondary-color);
+  border: none;
+}
+
+.signup-error-message {
+  font-size: 12px;
+  background-color: var(--light-red);
+  padding: 6px;
+  margin-bottom: 0.8rem;
+}
+
+.card.signup-card-container .card-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--gray-100);
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+.card.signup-card-container .card-body {
+  width: 100%;
+}
+
+.card.signup-card-container .card-body .input-group {
+  width: auto;
+  margin: 0 0 10px;
+}
+
+.input-label {
+  color: var(--gray-300);
+}
+
+.input-field {
+  background: transparent;
+  border: 1px solid var(--gray-300);
+  color: var(--gray-100);
+}
+
+.input-field:focus {
+  border: 1px solid var(--accent-color);
+}
+
+.card.signup-card-container .card-extra-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.875rem;
+  margin: 1rem 0;
+}
+
+.card.signup-card-container .card-extra-content .checkbox-label {
+  margin: 0;
+  color: var(--gray-300);
+}
+
+.card.signup-card-container .card-extra-content .checkbox {
+  margin-left: 0;
+}
+.card.signup-card-container .create-new-account-link {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.card.signup-card-container .create-new-account-link a {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  color: var(--gray-300);
+  font-weight: 400;
+  transition: all 0.3s ease;
+}
+
+.card.signup-card-container .create-new-account-link a:hover {
+  color: var(--accent-color);
+}
+
+.btn-primary.signup-btn {
+  background: var(--accent-color);
+  color: var(--gray-800);
+  width: 100%;
+  margin-top: 1rem;
+}
+
+@media only screen and (min-width: 450px) {
+  .card.signup-card-container {
+    padding: 2rem;
+  }
+}
