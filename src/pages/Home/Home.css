@@ -6,7 +6,15 @@ body {
   margin-bottom: 6rem;
 }
 
-.section-wrapper {
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.home-section-wrapper {
   margin-top: 8rem;
 }
 
