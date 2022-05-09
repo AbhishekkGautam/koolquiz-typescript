@@ -78,10 +78,6 @@ export const Questions = () => {
                         {`${currentQuestionIndex + 1}/${questions.length}`}
                       </span>
                     </div>
-                    {/* <div className="count">
-                      <span className="text">Score:</span>
-                      <span className="number">0</span>
-                    </div> */}
                   </div>
                   <div className="question-container">
                     <p className="question">

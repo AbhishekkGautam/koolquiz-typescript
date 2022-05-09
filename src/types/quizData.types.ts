@@ -1,15 +1,5 @@
 import { DocumentData } from "firebase/firestore";
 
-// type Options = {
-// 	value: string | number,
-// 	isRight: boolean
-// }
-
-// type Questions = {
-// 	question: string
-// 	options: Options[]
-// }
-
 type QuizCardType = {
   id: string;
   title: string;

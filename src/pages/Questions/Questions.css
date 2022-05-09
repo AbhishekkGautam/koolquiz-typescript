@@ -77,11 +77,6 @@
   transition: all 0.3s ease-in-out;
 }
 
-/* .btn.btn-start-quiz.disabled {
-  pointer-events: none;
-  cursor: not-allowed;
-} */
-
 .questions-card-container .btn.btn-start-quiz:hover {
   opacity: 0.9;
 }
