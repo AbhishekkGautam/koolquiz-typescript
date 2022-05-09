@@ -26,14 +26,14 @@ const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 const auth = getAuth(app);
 const categoriesRef = collection(db, "categories");
-const quizzesRef = collection(db, "quizzes");
+const quizRef = collection(db, "quizzes");
 
 export {
   app,
   db,
   auth,
   categoriesRef,
-  quizzesRef,
+  quizRef,
   addDoc,
   query,
   getDocs,
