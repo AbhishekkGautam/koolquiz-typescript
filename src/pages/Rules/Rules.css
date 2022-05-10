@@ -1,0 +1,64 @@
+.rules-section-wrapper {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8rem;
+}
+
+.rules-card-container .card.rules-card {
+  max-width: 450px;
+  width: 100%;
+  background: var(--secondary-color);
+  border: none;
+}
+
+.rules-card-container .card-body {
+  color: var(--white);
+  padding: 1rem;
+}
+
+.rules-card-container .card-body .card-title {
+  margin: 0.5rem 0 2rem 0;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.rules-card-container .card-body .rules {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 1rem;
+  color: var(--gray-300);
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.rules-card-container .card-body .rules .material-icons-outlined {
+  color: var(--gray-300);
+}
+
+.rules-card-container .card-button {
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.rules-card-container .card-button .btn.btn-start-quiz {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--accent-color);
+  color: var(--gray-800);
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.rules-card-container .btn.btn-start-quiz:hover {
+  background: var(--primary-color);
+  color: var(--gray-100);
+}
+
+@media only screen and (min-width: 768px) {
+  .rules-card-container .card-body {
+    padding: 2rem;
+  }
+}

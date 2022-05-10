@@ -5,7 +5,7 @@ import React, {
   useEffect,
   useCallback,
 } from "react";
-import { auth } from "../firebase/firebase";
+import { auth } from "../firebase/firebase.config";
 import { onAuthStateChanged, User } from "firebase/auth";
 import toast from "react-hot-toast";
 import { useNavigate } from "react-router-dom";

@@ -1,0 +1,96 @@
+.questions-section-wrapper {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8rem;
+}
+
+.questions-card-container .card.questions-card {
+  max-width: 450px;
+  width: 100%;
+  background: var(--secondary-color);
+  border: none;
+}
+
+.questions-card-container .card-body {
+  color: var(--white);
+  padding: 1rem;
+}
+
+.questions-card-container .card-body .card-title {
+  margin: 0.5rem 0 2rem 0;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.questions-card-container .card-body .top-display {
+  display: flex;
+  justify-content: space-between;
+}
+
+.questions-card-container .card-body .top-display .count .text {
+  color: var(--gray-300);
+}
+
+.questions-card-container .question-container {
+  margin: 1.5rem 0;
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+.questions-card-container .option-container {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 0.5rem;
+}
+
+.questions-card-container .option-container .btn.btn-option {
+  background: var(--primary-color);
+  color: var(--gray-300);
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+.questions-card-container .option-container .btn.btn-option.selected {
+  background-color: var(--accent-color);
+  color: var(--gray-800);
+  pointer-events: none;
+}
+
+.questions-card-container .option-container .btn.btn-option:hover {
+  opacity: 0.9;
+}
+
+.questions-card-container .card-button {
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.questions-card-container .card-button .btn.btn-start-quiz {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--primary-color);
+  color: var(--gray-100);
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.questions-card-container .btn.btn-start-quiz:hover {
+  opacity: 0.9;
+}
+
+@media only screen and (min-width: 450px) {
+  .questions-card-container .option-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .questions-card-container .card-body {
+    padding: 2rem;
+  }
+}
