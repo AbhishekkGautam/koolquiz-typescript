@@ -7,9 +7,7 @@ const initialState = {
   quizTitle: "",
   questions: [],
   currentQuestionIndex: 0,
-  correctOptions: [],
   selectedOptions: [],
-  score: 0,
   error: "",
 };
 
