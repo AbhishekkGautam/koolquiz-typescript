@@ -22,7 +22,7 @@ export const Navbar = () => {
       </div>
       <div className="navbar-section">
         <ul className="navbar-nav">
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <Link to="/" className="nav-link">
               <i className="fas fa-moon" aria-hidden="true"></i>
             </Link>
@@ -31,7 +31,7 @@ export const Navbar = () => {
             <Link className="nav-link" to="/">
               <i className="material-icons-outlined">person</i>
             </Link>
-          </li>
+          </li> */}
         </ul>
         {pathname === "/login" || pathname === "/signup" ? null : isLoggedIn ? (
           <button
